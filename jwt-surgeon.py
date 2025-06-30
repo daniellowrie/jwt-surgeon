@@ -30,8 +30,6 @@ readline.set_startup_hook(lambda: readline.insert_text(jwt_header_info_str_conve
 new_header_info_str = input(f"Modify Header Info ~> ")
 readline.set_startup_hook(None)
 
-print("")
-
 readline.set_startup_hook(lambda: readline.insert_text(jwt_payload_info_str_convert))
 new_payload_info_str = input(f"Modify Payload Info ~> ")
 readline.set_startup_hook(None)
